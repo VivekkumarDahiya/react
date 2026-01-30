@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { API } from "../../services";
+import ProductList from "./productList";
+import ProductFilter from "./productfilter";
 
 
 const ProductsContainer=()=>{
@@ -38,8 +40,8 @@ const ProductsContainer=()=>{
             {
                 isProducts && 
                 <div>
-                    <ProductFilter/>
-                    <ProductList/>
+                   <ProductFilter/>
+                    <ProductList products={products}/>
                 </div>
             }
         </div>

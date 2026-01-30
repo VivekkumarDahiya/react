@@ -12,11 +12,10 @@ const ProductFilter=()=>{
 export default ProductFilter
 const FilterItems=({label,onClick,active,value})=>{
 
- const isActive= active===value;
+ const isActive = active===value;
     return(
-        <button onClick={()=>onClick(value)}>
-            {label}
-        </button>
+        <button onClick={()=>onClick(value)}>{label}</button>
+      
     )
 }
 

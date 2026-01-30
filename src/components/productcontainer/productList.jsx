@@ -1,3 +1,4 @@
+import ProductItem from "./productItem";
 
 
 const ProductList =({products})=>{
@@ -5,8 +6,9 @@ const ProductList =({products})=>{
         <div>
             {
                 products.map((item)=>{
-                     
+                     <ProductItem product={item} key={item.id}/> 
                 })
+                
             }
         </div>
     )
