@@ -1,0 +1,65 @@
+/* .app_container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   
+}
+
+.app_logo {
+  display: flex;
+  align-items: center;
+  gap:10px;
+} */
+
+/* Main header container */
+.app_container {
+  background-color: #0b1c2d; /* dark blue */
+  padding: 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo section */
+.app_logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Logo text */
+.app_logo h3 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Logo image */
+.app_logo img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+/* Nav links */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 6px 10px;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+}
+
+/* Hover effect */
+nav a:hover {
+  background-color: #1e3a5f;
+  color: #61dafb; /* React color */
+}

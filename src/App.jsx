@@ -1,11 +1,16 @@
-
+import Header from "./components/header";
+import Footer from "./components/footer";
+import ProductPage from "./pages/practicepage";
 
 
 
 const App=()=>{
   return(
     <>
-    <h1>Hello world</h1>
+   {/* <Header/>
+   <Footer/> */}
+   <ProductPage/>
+
     </>
   )
 }

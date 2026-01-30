@@ -1,0 +1,57 @@
+/* Footer main container */
+.footer_container {
+  background-color: #0b1c2d; /* dark blue */
+  padding: 30px 40px;
+  margin-top: 60px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Footer content layout */
+.footer_content {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Footer left text */
+.footer_left {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Footer right links */
+.footer_links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Footer links */
+.footer_links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.footer_links a:hover {
+  color: #61dafb;
+}
+
+/* Divider line */
+.footer_divider {
+  height: 1px;
+  background-color: #1e3a5f;
+  margin: 20px 0;
+}
+
+/* Copyright text */
+.footer_copy {
+  text-align: center;
+  color: #9fb3c8;
+  font-size: 13px;
+}
